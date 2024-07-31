@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://propertyadviser.in/assets/front/images/real-estate-news/s1/talk-about-local-restaurants-in-hyderabad-1439-s1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+input {
+    display: block;
+    width: calc(100% - 2rem);
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button, .button {
+    background-color: rgba(227, 56, 224, 0.8);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: #45a049e6;
+}
+
+#auth-buttons {
+    margin-top: 2rem;
+}
+
+p {
+    margin-top: 1rem;
+    color: #333;
+}
+
+a { 
+    color: #d4329e;
+    text-decoration: none;
+}
+
+a:hover , .a:hover{
+    color: #45A049E6;
+    text-decoration: underline;
+}
